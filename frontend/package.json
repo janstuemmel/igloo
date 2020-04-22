@@ -1,0 +1,28 @@
+{
+  "name": "igloo-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel app/index.html",
+    "watch": "parcel watch app/index.html"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "svelte": "^3.20.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "axios": "^0.19.2",
+    "svelte-routing": "^1.4.2"
+  }
+}

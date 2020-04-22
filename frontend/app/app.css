@@ -1,0 +1,12 @@
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+ol, ul {
+  list-style: none;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}

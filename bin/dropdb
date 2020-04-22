@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+const db = require('../src/db')
+db.sync({ force: true })
